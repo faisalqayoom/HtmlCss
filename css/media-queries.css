@@ -1,0 +1,43 @@
+@media screen and (max-width: 720px) {
+  .navbar-container {
+    position: relative;
+  }
+  .navbar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.644);
+  }
+  .navbar>a {
+    display: block;
+    color: rgb(65, 65, 65);
+  }
+  .navbar>a:hover {
+    background-color: rgb(80, 80, 80);
+    color: white;
+  }
+  .nav-icon {
+    margin-left: auto;
+  }
+  .services {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .services>div {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .nav-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  body {
+    background-color: transparent;
+  }
+}

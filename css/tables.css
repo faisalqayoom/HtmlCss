@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 8px 16px;
+}
+
+table > thead {
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+}
+
+table > tbody > tr:nth-child(odd) {
+ background-color: rgb(243, 243, 243);
+}
